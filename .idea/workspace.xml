@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="339fc55e-6c6b-45b9-907c-6c83bfa74c1c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="blinddaterequests.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/blinddaterequests.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="75" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+              <folding>
+                <marker date="1631488723521" expanded="true" signature="1667:1709" ph="UPDATE tbl_b... " />
+                <marker date="1631488723521" expanded="true" signature="1667:1743" ph="UPDATE tbl_b... " />
+                <marker date="1631488723521" expanded="true" signature="1667:1767" ph="UPDATE tbl_b... " />
+                <marker date="1631488723521" expanded="true" signature="1838:1922" ph="UPDATE tbl_u... " />
+                <marker date="1631488723521" expanded="true" signature="1953:2043" ph="UPDATE tbl_u... " />
+                <marker date="1631488723521" expanded="true" signature="2140:2241" ph="UPDATE tbl_b... " />
+                <marker date="1631488723521" expanded="true" signature="2140:2265" ph="UPDATE tbl_b... " />
+                <marker date="1631488723521" expanded="true" signature="2300:2401" ph="UPDATE tbl_b... " />
+                <marker date="1631488723521" expanded="true" signature="2300:2405" ph="UPDATE tbl_b... " />
+                <marker date="1631488723521" expanded="true" signature="2300:2428" ph="UPDATE tbl_b... " />
+                <marker date="1631488723521" expanded="true" signature="2684:2784" ph="UPDATE tbl_b... " />
+                <marker date="1631488723521" expanded="true" signature="2855:2936" ph="UPDATE tbl_u... " />
+                <marker date="1631488723521" expanded="true" signature="2967:3054" ph="UPDATE tbl_u... " />
+                <marker date="1631488723521" expanded="true" signature="3233:3296" ph="SELECT * FRO... tlb_blind_date_request" />
+                <marker date="1631488723521" expanded="true" signature="3233:3311" ph="SELECT * FRO... tbl_blind_date_request" />
+                <marker date="1631488723521" expanded="true" signature="3233:3344" ph="SELECT * FRO... tbl_blind_date_request" />
+                <marker date="1631488723521" expanded="true" signature="3575:3613" ph="SELECT * FRO... tlb_users" />
+                <marker date="1631488723521" expanded="true" signature="3575:3641" ph="SELECT * FRO... tlb_users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1631081800760" expanded="true" signature="1415:1459" ph="SELECT * FRO... tbl_users" />
+                <marker date="1631081800760" expanded="true" signature="1415:1497" ph="SELECT * FRO... tbl_users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blinddateunmatch.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/blinddateunmatch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+              <folding>
+                <marker date="1631489383501" expanded="true" signature="560:664" ph="UPDATE tbl_b... " />
+                <marker date="1631489383501" expanded="true" signature="735:816" ph="UPDATE tbl_u... " />
+                <marker date="1631489383501" expanded="true" signature="847:929" ph="UPDATE tbl_u... " />
+                <marker date="1631489383501" expanded="true" signature="1136:1499" ph="SELECT bdr.*... tbl_blind_date_request" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blinddateunmatchadmin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/blinddateunmatchadmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding>
+                <marker date="1631489647076" expanded="true" signature="572:630" ph="SELECT useri... tbl_users" />
+                <marker date="1631489647076" expanded="true" signature="666:722" ph="SELECT useri... tbl_users" />
+                <marker date="1631489647076" expanded="true" signature="1326:1464" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631489647076" expanded="true" signature="1567:1808" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631489647076" expanded="true" signature="1858:1998" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631489647076" expanded="true" signature="2575:2752" ph="INSERT into tbl_blind_date_request... " />
+                <marker date="1631489647076" expanded="true" signature="2847:2931" ph="UPDATE tbl_u... " />
+                <marker date="1631489647076" expanded="true" signature="2974:3059" ph="UPDATE tbl_u... " />
+                <marker date="1631489647076" expanded="true" signature="3599:3703" ph="UPDATE tbl_b... " />
+                <marker date="1631489647076" expanded="true" signature="3774:3856" ph="UPDATE tbl_u... " />
+                <marker date="1631489647076" expanded="true" signature="3887:3972" ph="UPDATE tbl_u... " />
+                <marker date="1631489647076" expanded="true" signature="4179:4542" ph="SELECT bdr.*... tbl_blind_date_request" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="35" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="159" column="87" lean-forward="true" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="87" />
+              <folding>
+                <marker date="1631413818753" expanded="true" signature="425:520" ph="SELECT * FRO... tbl_users" />
+                <marker date="1631413818753" expanded="true" signature="616:684" ph="SELECT * FRO... tbl_users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dgallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/dgallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="166" column="22" lean-forward="false" selection-start-line="166" selection-start-column="3" selection-end-line="166" selection-end-column="22" />
+              <folding>
+                <marker date="1631425329803" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631425329803" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631425329803" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631425329803" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631425329803" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631425329803" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631425329803" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
+                <marker date="1631425329803" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
+                <marker date="1631425329803" expanded="true" signature="3879:3969" ph="UPDATE tbl_u... " />
+                <marker date="1631425329803" expanded="true" signature="4649:4664" ph="..." />
+                <marker date="1631425329803" expanded="true" signature="4897:4940" ph="SELECT * FRO... tbl_users" />
+                <marker date="1631425329803" expanded="true" signature="5390:5459" ph="SELECT * FRO... tbl_trend" />
+                <marker date="1631425329803" expanded="true" signature="5590:5652" ph="INSERT into tbl_trend... " />
+                <marker date="1631425329803" expanded="true" signature="5679:5768" ph="UPDATE tbl_u... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="46" column="76" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="76" />
+              <folding>
+                <marker date="1631417494986" expanded="true" signature="1106:1201" ph="SELECT * FRO... tbl_users" />
+                <marker date="1631417494986" expanded="true" signature="1297:1365" ph="SELECT * FRO... tbl_users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+              <folding>
+                <marker date="1631488723513" expanded="true" signature="1952:2087" ph="INSERT into tbl_blind_date_request... " />
+                <marker date="1631488723513" expanded="true" signature="2158:2240" ph="UPDATE tbl_u... " />
+                <marker date="1631488723513" expanded="true" signature="2271:2356" ph="UPDATE tbl_u... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tlb_blind_date_request</find>
+      <find>$_POST</find>
+      <find>name=&quot;phone&quot;</find>
+      <find>Failed</find>
+      <find>$uid</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/inc/footer.php" />
+        <option value="$PROJECT_DIR$/pages/blinddategallery.php" />
+        <option value="$PROJECT_DIR$/pages/trend.php" />
+        <option value="$PROJECT_DIR$/pages/guidelines-lol.php" />
+        <option value="$PROJECT_DIR$/inc/sidebar.php" />
+        <option value="$PROJECT_DIR$/pages/editvideo.php" />
+        <option value="$PROJECT_DIR$/updateprofile.php" />
+        <option value="$PROJECT_DIR$/pages/blinddate.php" />
+        <option value="$PROJECT_DIR$/pages/dashboard.php" />
+        <option value="$PROJECT_DIR$/pages/episodes.php" />
+        <option value="$PROJECT_DIR$/pages/gallery.php" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/pages/login.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/pages/dgallery.php" />
+        <option value="$PROJECT_DIR$/inc/db.php" />
+        <option value="$PROJECT_DIR$/pages/blinddaterequests.php" />
+        <option value="$PROJECT_DIR$/pages/adminmatch.php" />
+        <option value="$PROJECT_DIR$/pages/blinddateunmatch.php" />
+        <option value="$PROJECT_DIR$/pages/blinddateunmatchadmin.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shufflestv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shufflestv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shufflestv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shufflestv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\shufflestv\pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="shufflestv" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="339fc55e-6c6b-45b9-907c-6c83bfa74c1c" name="Default" comment="" />
+      <created>1630746806471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630746806471</updated>
+      <workItem from="1630746808211" duration="39000" />
+      <workItem from="1630746872294" duration="32621000" />
+      <workItem from="1631000384326" duration="22506000" />
+      <workItem from="1631126919598" duration="7309000" />
+      <workItem from="1631282600535" duration="3304000" />
+      <workItem from="1631302938848" duration="19910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85689000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/dgallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" column="12" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+          <folding>
+            <marker date="1631425329803" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
+            <marker date="1631425329803" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
+            <marker date="1631425329803" expanded="true" signature="3879:3969" ph="UPDATE tbl_u... " />
+            <marker date="1631425329803" expanded="true" signature="4649:4664" ph="..." />
+            <marker date="1631425329803" expanded="true" signature="4897:4940" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631425329803" expanded="true" signature="5390:5459" ph="SELECT * FRO... tbl_trend" />
+            <marker date="1631425329803" expanded="true" signature="5590:5652" ph="INSERT into tbl_trend... " />
+            <marker date="1631425329803" expanded="true" signature="5679:5768" ph="UPDATE tbl_u... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/episodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/votepaymentpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3689">
+          <caret line="217" column="29" lean-forward="true" selection-start-line="217" selection-start-column="29" selection-end-line="218" selection-end-column="99" />
+          <folding>
+            <marker date="1611931062000" expanded="true" signature="504:554" ph="SELECT * FRO... tbl_guests" />
+            <marker date="1611931062000" expanded="true" signature="1658:1704" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="2336:2476" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="2927:2986" ph="SELECT * FRO... tbl_contests" />
+            <marker date="1611931062000" expanded="true" signature="4854:4901" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="5229:5291" ph="SELECT * fro... tbl_contest_credit_record" />
+            <marker date="1611931062000" expanded="true" signature="5675:5745" ph="UPDATE tbl_u... " />
+            <marker date="1611931062000" expanded="true" signature="5835:5993" ph="INSERT into tbl_contest_credit_record" />
+            <marker date="1611931062000" expanded="true" signature="6102:6153" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="6284:6343" ph="SELECT * FRO... tbl_contests" />
+            <marker date="1611931062000" expanded="true" signature="6633:6722" ph="UPDATE tbl_c... " />
+            <marker date="1611931062000" expanded="true" signature="6759:6842" ph="UPDATE tbl_c... " />
+            <marker date="1611931062000" expanded="true" signature="6999:7046" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="7366:7414" ph="INSERT into tbl_guests" />
+            <marker date="1611931062000" expanded="true" signature="7515:7565" ph="DELETE from " />
+            <marker date="1611931062000" expanded="true" signature="7760:7900" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="8263:8320" ph="SELECT * FRO... tbl_contests" />
+            <marker date="1611931062000" expanded="true" signature="8575:8628" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="9224:9351" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="10119:10203" ph="SELECT * FRO... tbl_contest_credit_record" />
+            <marker date="1611931062000" expanded="true" signature="11456:11545" ph="INSERT into tbl_contest_credit_record" />
+            <marker date="1611931062000" expanded="true" signature="11606:11657" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="11788:11847" ph="SELECT * FRO... tbl_contests" />
+            <marker date="1611931062000" expanded="true" signature="12233:12281" ph="INSERT into tbl_guests" />
+            <marker date="1611931062000" expanded="true" signature="12374:12463" ph="UPDATE tbl_c... " />
+            <marker date="1611931062000" expanded="true" signature="12500:12583" ph="UPDATE tbl_c... " />
+            <marker date="1611931062000" expanded="true" signature="12741:12788" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="13048:13188" ph="SELECT * FRO... tbl_contestants" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <marker date="1631488723513" expanded="true" signature="1952:2087" ph="INSERT into tbl_blind_date_request... " />
+            <marker date="1631488723513" expanded="true" signature="2158:2240" ph="UPDATE tbl_u... " />
+            <marker date="1631488723513" expanded="true" signature="2271:2356" ph="UPDATE tbl_u... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="10" lean-forward="false" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1631081800760" expanded="true" signature="1415:1459" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631081800760" expanded="true" signature="1415:1497" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4726">
+          <caret line="278" column="77" lean-forward="true" selection-start-line="278" selection-start-column="77" selection-end-line="278" selection-end-column="77" />
+          <folding>
+            <marker date="1631017125176" expanded="true" signature="7548:7578" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631017125176" expanded="true" signature="7548:7640" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updateprofile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6154">
+          <caret line="362" column="52" lean-forward="true" selection-start-line="362" selection-start-column="52" selection-end-line="362" selection-end-column="52" />
+          <folding>
+            <marker date="1631002047964" expanded="true" signature="1241:1333" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631002047964" expanded="true" signature="2795:2920" ph="UPDATE tbl_u... " />
+            <marker date="1631002047964" expanded="true" signature="2795:3015" ph="UPDATE tbl_u... " />
+            <marker date="1631002047964" expanded="true" signature="3070:3309" ph="UPDATE tbl_u... " />
+            <marker date="1631002047964" expanded="true" signature="7567:7613" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631002047964" expanded="false" signature="10650:10666" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3706">
+          <caret line="218" column="3" lean-forward="true" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
+          <folding>
+            <marker date="1631161930679" expanded="true" signature="2289:2407" ph="UPDATE tbl_u... " />
+            <marker date="1631161930679" expanded="true" signature="2876:2918" ph="UPDATE tbl_s... " />
+            <marker date="1631161930679" expanded="true" signature="2948:3005" ph="UPDATE tbl_u... " />
+            <marker date="1631161930679" expanded="true" signature="3639:3716" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631161930679" expanded="true" signature="3920:3985" ph="UPDATE tbl_u... " />
+            <marker date="1631161930679" expanded="true" signature="4138:4184" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631161930679" expanded="true" signature="7607:7693" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631161930679" expanded="true" signature="8290:8456" ph="INSERT into tbl_users... " />
+            <marker date="1631161930679" expanded="true" signature="8673:8745" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="16" lean-forward="true" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1631081800760" expanded="true" signature="1415:1459" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631081800760" expanded="true" signature="1415:1497" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dgallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="163" column="48" lean-forward="false" selection-start-line="163" selection-start-column="48" selection-end-line="163" selection-end-column="48" />
+          <folding>
+            <marker date="1631425329803" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
+            <marker date="1631425329803" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
+            <marker date="1631425329803" expanded="true" signature="3879:3969" ph="UPDATE tbl_u... " />
+            <marker date="1631425329803" expanded="true" signature="4649:4664" ph="..." />
+            <marker date="1631425329803" expanded="true" signature="4897:4940" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631425329803" expanded="true" signature="5390:5459" ph="SELECT * FRO... tbl_trend" />
+            <marker date="1631425329803" expanded="true" signature="5590:5652" ph="INSERT into tbl_trend... " />
+            <marker date="1631425329803" expanded="true" signature="5679:5768" ph="UPDATE tbl_u... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/editvideo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1631417494986" expanded="true" signature="1106:1201" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631417494986" expanded="true" signature="1297:1365" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7803">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/allshows.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blinddategallery.php" />
+    <entry file="file://$PROJECT_DIR$/inc/db-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip/assets/inc/db-out.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guidelines.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guidelines-lol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="65" column="6" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/allvideos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/standard/_types.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="97" column="13" lean-forward="false" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/profile/Hey.png" />
+    <entry file="file://$PROJECT_DIR$/uploads/profile/Descri.png" />
+    <entry file="file://$PROJECT_DIR$/inc/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/editvideo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blinddate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/trend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/makepayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/paystackcall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="48" column="66" lean-forward="false" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verifypayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="62" column="86" lean-forward="false" selection-start-line="62" selection-start-column="80" selection-end-line="62" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/episodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/votepaymentpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="217" column="29" lean-forward="false" selection-start-line="217" selection-start-column="29" selection-end-line="218" selection-end-column="99" />
+          <folding>
+            <marker date="1611931062000" expanded="true" signature="504:554" ph="SELECT * FRO... tbl_guests" />
+            <marker date="1611931062000" expanded="true" signature="1658:1704" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="2336:2476" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="2927:2986" ph="SELECT * FRO... tbl_contests" />
+            <marker date="1611931062000" expanded="true" signature="4854:4901" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="5229:5291" ph="SELECT * fro... tbl_contest_credit_record" />
+            <marker date="1611931062000" expanded="true" signature="5675:5745" ph="UPDATE tbl_u... " />
+            <marker date="1611931062000" expanded="true" signature="5835:5993" ph="INSERT into tbl_contest_credit_record" />
+            <marker date="1611931062000" expanded="true" signature="6102:6153" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="6284:6343" ph="SELECT * FRO... tbl_contests" />
+            <marker date="1611931062000" expanded="true" signature="6633:6722" ph="UPDATE tbl_c... " />
+            <marker date="1611931062000" expanded="true" signature="6759:6842" ph="UPDATE tbl_c... " />
+            <marker date="1611931062000" expanded="true" signature="6999:7046" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="7366:7414" ph="INSERT into tbl_guests" />
+            <marker date="1611931062000" expanded="true" signature="7515:7565" ph="DELETE from " />
+            <marker date="1611931062000" expanded="true" signature="7760:7900" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="8263:8320" ph="SELECT * FRO... tbl_contests" />
+            <marker date="1611931062000" expanded="true" signature="8575:8628" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="9224:9351" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="10119:10203" ph="SELECT * FRO... tbl_contest_credit_record" />
+            <marker date="1611931062000" expanded="true" signature="11456:11545" ph="INSERT into tbl_contest_credit_record" />
+            <marker date="1611931062000" expanded="true" signature="11606:11657" ph="SELECT * FRO... tbl_contestants" />
+            <marker date="1611931062000" expanded="true" signature="11788:11847" ph="SELECT * FRO... tbl_contests" />
+            <marker date="1611931062000" expanded="true" signature="12233:12281" ph="INSERT into tbl_guests" />
+            <marker date="1611931062000" expanded="true" signature="12374:12463" ph="UPDATE tbl_c... " />
+            <marker date="1611931062000" expanded="true" signature="12500:12583" ph="UPDATE tbl_c... " />
+            <marker date="1611931062000" expanded="true" signature="12741:12788" ph="SELECT * FRO... tbl_users" />
+            <marker date="1611931062000" expanded="true" signature="13048:13188" ph="SELECT * FRO... tbl_contestants" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="248" column="32" lean-forward="false" selection-start-line="248" selection-start-column="32" selection-end-line="248" selection-end-column="32" />
+          <folding>
+            <marker date="1631161930679" expanded="true" signature="2289:2407" ph="UPDATE tbl_u... " />
+            <marker date="1631161930679" expanded="true" signature="2876:2918" ph="UPDATE tbl_s... " />
+            <marker date="1631161930679" expanded="true" signature="2948:3005" ph="UPDATE tbl_u... " />
+            <marker date="1631161930679" expanded="true" signature="3639:3716" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631161930679" expanded="true" signature="3920:3985" ph="UPDATE tbl_u... " />
+            <marker date="1631161930679" expanded="true" signature="4138:4184" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631161930679" expanded="true" signature="7607:7693" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631161930679" expanded="true" signature="8290:8456" ph="INSERT into tbl_users... " />
+            <marker date="1631161930679" expanded="true" signature="8673:8745" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="284" column="0" lean-forward="false" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
+          <folding>
+            <marker date="1631017125176" expanded="true" signature="7548:7578" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631017125176" expanded="true" signature="7548:7640" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="159" column="87" lean-forward="true" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="87" />
+          <folding>
+            <marker date="1631413818753" expanded="true" signature="425:520" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631413818753" expanded="true" signature="616:684" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/select2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1887">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/mysql/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="949" column="28" lean-forward="true" selection-start-line="949" selection-start-column="28" selection-end-line="949" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="46" column="76" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="76" />
+          <folding>
+            <marker date="1631417494986" expanded="true" signature="1106:1201" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631417494986" expanded="true" signature="1297:1365" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updateprofile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1631002047964" expanded="true" signature="1241:1333" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631002047964" expanded="true" signature="2795:2920" ph="UPDATE tbl_u... " />
+            <marker date="1631002047964" expanded="true" signature="2795:3015" ph="UPDATE tbl_u... " />
+            <marker date="1631002047964" expanded="true" signature="3070:3309" ph="UPDATE tbl_u... " />
+            <marker date="1631002047964" expanded="true" signature="7567:7613" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631002047964" expanded="false" signature="10650:10666" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <marker date="1631488723513" expanded="true" signature="1952:2087" ph="INSERT into tbl_blind_date_request... " />
+            <marker date="1631488723513" expanded="true" signature="2158:2240" ph="UPDATE tbl_u... " />
+            <marker date="1631488723513" expanded="true" signature="2271:2356" ph="UPDATE tbl_u... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dgallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="166" column="22" lean-forward="false" selection-start-line="166" selection-start-column="3" selection-end-line="166" selection-end-column="22" />
+          <folding>
+            <marker date="1631425329803" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631425329803" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
+            <marker date="1631425329803" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
+            <marker date="1631425329803" expanded="true" signature="3879:3969" ph="UPDATE tbl_u... " />
+            <marker date="1631425329803" expanded="true" signature="4649:4664" ph="..." />
+            <marker date="1631425329803" expanded="true" signature="4897:4940" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631425329803" expanded="true" signature="5390:5459" ph="SELECT * FRO... tbl_trend" />
+            <marker date="1631425329803" expanded="true" signature="5590:5652" ph="INSERT into tbl_trend... " />
+            <marker date="1631425329803" expanded="true" signature="5679:5768" ph="UPDATE tbl_u... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blinddaterequests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="75" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          <folding>
+            <marker date="1631488723521" expanded="true" signature="1667:1709" ph="UPDATE tbl_b... " />
+            <marker date="1631488723521" expanded="true" signature="1667:1743" ph="UPDATE tbl_b... " />
+            <marker date="1631488723521" expanded="true" signature="1667:1767" ph="UPDATE tbl_b... " />
+            <marker date="1631488723521" expanded="true" signature="1838:1922" ph="UPDATE tbl_u... " />
+            <marker date="1631488723521" expanded="true" signature="1953:2043" ph="UPDATE tbl_u... " />
+            <marker date="1631488723521" expanded="true" signature="2140:2241" ph="UPDATE tbl_b... " />
+            <marker date="1631488723521" expanded="true" signature="2140:2265" ph="UPDATE tbl_b... " />
+            <marker date="1631488723521" expanded="true" signature="2300:2401" ph="UPDATE tbl_b... " />
+            <marker date="1631488723521" expanded="true" signature="2300:2405" ph="UPDATE tbl_b... " />
+            <marker date="1631488723521" expanded="true" signature="2300:2428" ph="UPDATE tbl_b... " />
+            <marker date="1631488723521" expanded="true" signature="2684:2784" ph="UPDATE tbl_b... " />
+            <marker date="1631488723521" expanded="true" signature="2855:2936" ph="UPDATE tbl_u... " />
+            <marker date="1631488723521" expanded="true" signature="2967:3054" ph="UPDATE tbl_u... " />
+            <marker date="1631488723521" expanded="true" signature="3233:3296" ph="SELECT * FRO... tlb_blind_date_request" />
+            <marker date="1631488723521" expanded="true" signature="3233:3311" ph="SELECT * FRO... tbl_blind_date_request" />
+            <marker date="1631488723521" expanded="true" signature="3233:3344" ph="SELECT * FRO... tbl_blind_date_request" />
+            <marker date="1631488723521" expanded="true" signature="3575:3613" ph="SELECT * FRO... tlb_users" />
+            <marker date="1631488723521" expanded="true" signature="3575:3641" ph="SELECT * FRO... tlb_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/adminmatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="59" lean-forward="true" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1631081800760" expanded="true" signature="1415:1459" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631081800760" expanded="true" signature="1415:1497" ph="SELECT * FRO... tbl_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blinddateunmatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <marker date="1631489383501" expanded="true" signature="560:664" ph="UPDATE tbl_b... " />
+            <marker date="1631489383501" expanded="true" signature="735:816" ph="UPDATE tbl_u... " />
+            <marker date="1631489383501" expanded="true" signature="847:929" ph="UPDATE tbl_u... " />
+            <marker date="1631489383501" expanded="true" signature="1136:1499" ph="SELECT bdr.*... tbl_blind_date_request" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blinddateunmatchadmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <marker date="1631489647076" expanded="true" signature="572:630" ph="SELECT useri... tbl_users" />
+            <marker date="1631489647076" expanded="true" signature="666:722" ph="SELECT useri... tbl_users" />
+            <marker date="1631489647076" expanded="true" signature="1326:1464" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631489647076" expanded="true" signature="1567:1808" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631489647076" expanded="true" signature="1858:1998" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631489647076" expanded="true" signature="2575:2752" ph="INSERT into tbl_blind_date_request... " />
+            <marker date="1631489647076" expanded="true" signature="2847:2931" ph="UPDATE tbl_u... " />
+            <marker date="1631489647076" expanded="true" signature="2974:3059" ph="UPDATE tbl_u... " />
+            <marker date="1631489647076" expanded="true" signature="3599:3703" ph="UPDATE tbl_b... " />
+            <marker date="1631489647076" expanded="true" signature="3774:3856" ph="UPDATE tbl_u... " />
+            <marker date="1631489647076" expanded="true" signature="3887:3972" ph="UPDATE tbl_u... " />
+            <marker date="1631489647076" expanded="true" signature="4179:4542" ph="SELECT bdr.*... tbl_blind_date_request" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

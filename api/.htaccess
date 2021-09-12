@@ -1,0 +1,8 @@
+
+RewriteEngine on
+
+#<This helps to pass Authorization header for the IOS app>
+#Please dont remove
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+#</End of This helps to pass Authorization header for the IOS app>
