@@ -90,8 +90,8 @@ function unmatch($db, $user_id, $request_id, $to_user_id) {
     }
 }
 
-$sql4 = mysqli_query($db,"SELECT bdr.*, fromu.userid AS fromuserid, fromu.fname AS fromfname, fromu.lname AS fromlname,
-tou.userid AS touserid, tou.fname AS tofname, tou.lname AS tolname  FROM  tbl_blind_date_request AS bdr
+$sql4 = mysqli_query($db,"SELECT bdr.*, fromu.userid AS fromuserid, fromu.fname AS fromfname, fromu.lname AS fromlname, fromu.username AS fromusername,
+tou.userid AS touserid, tou.fname AS tofname, tou.lname AS tolname, tou.username AS tousername  FROM  tbl_blind_date_request AS bdr
 JOIN `tbl_users` AS fromu ON bdr.user_id = fromu.userid
 JOIN `tbl_users` AS tou ON bdr.to_user_id = tou.userid WHERE (bdr.user_id = '$user_id' OR bdr.to_user_id = '$user_id') AND bdr.status = '" . BLIND_DATE_STATUS_ACCEPTED ."'");
 $total_users = mysqli_num_rows($sql4);
@@ -114,7 +114,7 @@ $total_users = mysqli_num_rows($sql4);
                         <div class="card px-3" >
                             <div class="card-body" >
 
-                                <div id="video-gallery" class="row ">
+                                <div id="video-gallery" >
                                     <div align='center'>
                                         <h4>Match Users</h4>
                                         <p><?php if($msg!=''){ ?> <div class="msg <?=empty($is_error)?'text-success':'text-danger'?>"><?php echo $msg; ?></div>    <?php } ?></p>
@@ -124,8 +124,10 @@ $total_users = mysqli_num_rows($sql4);
                                                 <th>S/N</th>
                                                 <th>First Name</th>
                                                 <th>Last Name</th>
+                                                <th>User Name</th>
                                                 <th>To First Name</th>
                                                 <th>To Last Name</th>
+                                                <th>To User Name</th>
                                                 <th>Date Matched</th>
                                                 <th></th>
                                             </tr>
@@ -140,8 +142,10 @@ $total_users = mysqli_num_rows($sql4);
                                                         <td>S/N</td>
                                                         <td><?=$row['fromfname']?></td>
                                                         <td><?=$row['fromlname']?></td>
+                                                        <td><?=$row['fromusername']?></td>
                                                         <td><?=$row['tofname']?></td>
                                                         <td><?=$row['tolname']?></td>
+                                                        <td><?=$row['tousername']?></td>
                                                         <td><?=$row['created_at']?></td>
                                                         <td>
                                                             <form action="<?= $_SERVER['PHP_SELF'] . "?" . $_SERVER['QUERY_STRING'] ?>"
@@ -162,7 +166,7 @@ $total_users = mysqli_num_rows($sql4);
                                             }else {
                                                 ?>
                                                 <tr>
-                                                    <td colspan="5">No matched users</td>
+                                                    <td colspan="7">No matched users</td>
                                                 </tr>
                                                 <?php
                                             }

@@ -77,8 +77,8 @@ if(isset($_POST['unmatch'])) {
     }
 }
 
-$sql4 = mysqli_query($db,"SELECT bdr.*, fromu.userid AS fromuserid, fromu.fname AS fromfname, fromu.lname AS fromlname,
-tou.userid AS touserid, tou.fname AS tofname, tou.lname AS tolname  FROM  tbl_blind_date_request AS bdr
+$sql4 = mysqli_query($db,"SELECT bdr.*, fromu.userid AS fromuserid, fromu.fname AS fromfname, fromu.lname AS fromlname, fromu.username AS fromusername,
+tou.userid AS touserid, tou.fname AS tofname, tou.lname AS tolname, tou.username AS tousername  FROM  tbl_blind_date_request AS bdr
 JOIN `tbl_users` AS fromu ON bdr.user_id = fromu.userid
 JOIN `tbl_users` AS tou ON bdr.to_user_id = tou.userid WHERE bdr.status = '" . BLIND_DATE_STATUS_ACCEPTED ."'");
 $total_users = mysqli_num_rows($sql4);
@@ -101,7 +101,7 @@ $total_users = mysqli_num_rows($sql4);
               <div class="card px-3" >
                 <div class="card-body" >
                 
-                       <div id="video-gallery" class="row ">
+                       <div id="video-gallery">
                        	<div align='center'>
                           <h4>Match Users</h4>
                            <p><?php if($msg!=''){ ?> <div class="msg <?=empty($is_error)?'text-success':'text-danger'?>"><?php echo $msg; ?></div>    <?php } ?></p>
@@ -124,62 +124,67 @@ $total_users = mysqli_num_rows($sql4);
                                     </div>
                                 </section>
                              </form>
-                                <table class="table table-bordered">
-                                    <thead>
-                                    <tr>
-                                        <th>S/N</th>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>To First Name</th>
-                                        <th>To Last Name</th>
-                                        <th>Date Matched</th>
-                                        <th></th>
-                                    </tr>
+                            <table class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>S/N</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>User Name</th>
+                                    <th>To First Name</th>
+                                    <th>To Last Name</th>
+                                    <th>To User Name</th>
+                                    <th>Date Matched</th>
+                                    <th></th>
+                                </tr>
 
-                                    </thead>
-                                    <tbody>
-                                    <?php
-                                    if($total_users > 0) {
-                                     while($row = mysqli_fetch_array($sql4,MYSQLI_ASSOC)) {
-                                         ?>
-                                         <tr>
-                                             <td>S/N</td>
-                                             <td><?=$row['fromfname']?></td>
-                                             <td><?=$row['fromlname']?></td>
-                                             <td><?=$row['tofname']?></td>
-                                             <td><?=$row['tolname']?></td>
-                                             <td><?=$row['created_at']?></td>
-                                             <td>
-                                                 <form action="<?= $_SERVER['PHP_SELF'] . "?" . $_SERVER['QUERY_STRING'] ?>"
-                                                       method="post">
-                                                     <input type="hidden" name="request_id"
-                                                            value="<?=$row['id'] ?>"/>
-                                                     <input type="hidden" name="user_id"
-                                                            value="<?=$row['fromuserid'] ?>"/>
-                                                     <input type="hidden" name="to_user_id"
-                                                            value="<?=$row['touserid'] ?>"/>
-                                                     <button type="submit" name="unmatch" value="1"
-                                                             class="btn btn-danger"
-                                                             style="float: left; position: relative; left: 10px;">Unmatch<i class="fa fa-arrow-right"></i>
-                                                     </button>
-                                                 </form>
-                                             </td>
-                                         </tr>
-                                         <?php
-                                     }
-                                    }else {
+                                </thead>
+                                <tbody>
+                                <?php
+                                if($total_users > 0) {
+                                    $sn = 0;
+                                    while($row = mysqli_fetch_array($sql4,MYSQLI_ASSOC)) {
+                                        $sn++;
                                         ?>
                                         <tr>
-                                            <td colspan="5">No matched users</td>
+                                            <td><?=$sn?></td>
+                                            <td><?=$row['fromfname']?></td>
+                                            <td><?=$row['fromlname']?></td>
+                                            <td><?=$row['fromusername']?></td>
+                                            <td><?=$row['tofname']?></td>
+                                            <td><?=$row['tolname']?></td>
+                                            <td><?=$row['tousername']?></td>
+                                            <td><?=$row['created_at']?></td>
+                                            <td>
+                                                <form action="<?= $_SERVER['PHP_SELF'] . "?" . $_SERVER['QUERY_STRING'] ?>"
+                                                      method="post">
+                                                    <input type="hidden" name="request_id"
+                                                           value="<?=$row['id'] ?>"/>
+                                                    <input type="hidden" name="to_user_id"
+                                                           value="<?=$row['touserid'] ?>"/>
+                                                    <button type="submit" name="unmatch" value="1"
+                                                            class="btn btn-danger"
+                                                            style="float: left; position: relative; left: 10px;">Unmatch<i class="fa fa-arrow-right"></i>
+                                                    </button>
+                                                </form>
+                                            </td>
                                         </tr>
-                                    <?php
+                                        <?php
                                     }
+                                }else {
                                     ?>
-                                    </tbody>
-                                </table>
+                                    <tr>
+                                        <td colspan="7">No matched users</td>
+                                    </tr>
+                                    <?php
+                                }
+                                ?>
+                                </tbody>
+                            </table>
 
 
-</div>
+
+                        </div>
 
 
 
