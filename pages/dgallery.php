@@ -136,7 +136,6 @@ if($credit < AMOUNT_PER_REQUEST) {
 <?php
 }else {
 if(insert_date_request($db, $userid, $uid)) {
-    var_dump(124);
 $debit= mysqli_query($db,"UPDATE  tbl_users set credit=credit - '" . AMOUNT_PER_REQUEST . "'  WHERE userid='$userid'");
 ?>
     <script>

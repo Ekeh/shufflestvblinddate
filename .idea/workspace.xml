@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339fc55e-6c6b-45b9-907c-6c83bfa74c1c" name="Default" comment="" />
+    <list default="true" id="339fc55e-6c6b-45b9-907c-6c83bfa74c1c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/db.php" afterPath="$PROJECT_DIR$/inc/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/sidebar.php" afterPath="$PROJECT_DIR$/inc/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/blinddateunmatch.php" afterPath="$PROJECT_DIR$/pages/blinddateunmatch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/dgallery.php" afterPath="$PROJECT_DIR$/pages/dgallery.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,36 +65,68 @@
       <file leaf-file-name="blinddateunmatch.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/blinddateunmatch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="476">
+              <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
               <folding>
-                <marker date="1631489383501" expanded="true" signature="560:664" ph="UPDATE tbl_b... " />
-                <marker date="1631489383501" expanded="true" signature="735:816" ph="UPDATE tbl_u... " />
-                <marker date="1631489383501" expanded="true" signature="847:929" ph="UPDATE tbl_u... " />
-                <marker date="1631489383501" expanded="true" signature="1136:1499" ph="SELECT bdr.*... tbl_blind_date_request" />
+                <marker date="1631494781198" expanded="true" signature="447:530" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631494781198" expanded="true" signature="695:749" ph="SELECT credi... tbl_users" />
+                <marker date="1631494781198" expanded="true" signature="1736:1827" ph="UPDATE tbl_u... " />
+                <marker date="1631494781198" expanded="true" signature="3194:3339" ph="UPDATE tbl_b... " />
+                <marker date="1631494781198" expanded="true" signature="3410:3492" ph="UPDATE tbl_u... " />
+                <marker date="1631494781198" expanded="true" signature="3523:3608" ph="UPDATE tbl_u... " />
+                <marker date="1631494781198" expanded="true" signature="3725:4150" ph="SELECT bdr.*... tbl_blind_date_request" />
+                <marker date="1631494781198" expanded="true" signature="4224:4692" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="4259:4692" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="4286:4692" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="4322:4692" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="4426:4692" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="4470:4692" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="4519:4692" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="4572:4692" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="4644:4692" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="5017:6209" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="5069:5687" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="5118:5633" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="5739:6209" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="6071:6209" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="6638:6726" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="7375:7709" ph="..." />
+                <marker date="1631494781198" expanded="true" signature="8161:8305" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blinddateunmatchadmin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blinddateunmatchadmin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/blinddateunmatchadmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="79" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="79" />
               <folding>
-                <marker date="1631489647076" expanded="true" signature="572:630" ph="SELECT useri... tbl_users" />
-                <marker date="1631489647076" expanded="true" signature="666:722" ph="SELECT useri... tbl_users" />
-                <marker date="1631489647076" expanded="true" signature="1326:1464" ph="SELECT id FR... tbl_blind_date_request" />
-                <marker date="1631489647076" expanded="true" signature="1567:1808" ph="SELECT id FR... tbl_blind_date_request" />
-                <marker date="1631489647076" expanded="true" signature="1858:1998" ph="SELECT id FR... tbl_blind_date_request" />
-                <marker date="1631489647076" expanded="true" signature="2575:2752" ph="INSERT into tbl_blind_date_request... " />
-                <marker date="1631489647076" expanded="true" signature="2847:2931" ph="UPDATE tbl_u... " />
-                <marker date="1631489647076" expanded="true" signature="2974:3059" ph="UPDATE tbl_u... " />
-                <marker date="1631489647076" expanded="true" signature="3599:3703" ph="UPDATE tbl_b... " />
-                <marker date="1631489647076" expanded="true" signature="3774:3856" ph="UPDATE tbl_u... " />
-                <marker date="1631489647076" expanded="true" signature="3887:3972" ph="UPDATE tbl_u... " />
-                <marker date="1631489647076" expanded="true" signature="4179:4542" ph="SELECT bdr.*... tbl_blind_date_request" />
+                <marker date="1631496508270" expanded="true" signature="572:630" ph="SELECT useri... tbl_users" />
+                <marker date="1631496508270" expanded="true" signature="666:722" ph="SELECT useri... tbl_users" />
+                <marker date="1631496508270" expanded="true" signature="1326:1464" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631496508270" expanded="true" signature="1567:1808" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631496508270" expanded="true" signature="1858:1998" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631496508270" expanded="true" signature="2575:2752" ph="INSERT into tbl_blind_date_request... " />
+                <marker date="1631496508270" expanded="true" signature="2847:2931" ph="UPDATE tbl_u... " />
+                <marker date="1631496508270" expanded="true" signature="2974:3059" ph="UPDATE tbl_u... " />
+                <marker date="1631496508270" expanded="true" signature="3599:3703" ph="UPDATE tbl_b... " />
+                <marker date="1631496508270" expanded="true" signature="3774:3856" ph="UPDATE tbl_u... " />
+                <marker date="1631496508270" expanded="true" signature="3887:3972" ph="UPDATE tbl_u... " />
+                <marker date="1631496508270" expanded="true" signature="4179:4542" ph="SELECT bdr.*... tbl_blind_date_request" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inc/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="120" column="52" lean-forward="false" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+              <folding>
+                <marker date="1631497948894" expanded="true" signature="599:645" ph="SELECT * FRO... tbl_users" />
               </folding>
             </state>
           </provider>
@@ -119,23 +158,23 @@
       <file leaf-file-name="dgallery.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/dgallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="166" column="22" lean-forward="false" selection-start-line="166" selection-start-column="3" selection-end-line="166" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="139" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding>
-                <marker date="1631425329803" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
-                <marker date="1631425329803" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
-                <marker date="1631425329803" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
-                <marker date="1631425329803" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
-                <marker date="1631425329803" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
-                <marker date="1631425329803" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
-                <marker date="1631425329803" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
-                <marker date="1631425329803" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
-                <marker date="1631425329803" expanded="true" signature="3879:3969" ph="UPDATE tbl_u... " />
-                <marker date="1631425329803" expanded="true" signature="4649:4664" ph="..." />
-                <marker date="1631425329803" expanded="true" signature="4897:4940" ph="SELECT * FRO... tbl_users" />
-                <marker date="1631425329803" expanded="true" signature="5390:5459" ph="SELECT * FRO... tbl_trend" />
-                <marker date="1631425329803" expanded="true" signature="5590:5652" ph="INSERT into tbl_trend... " />
-                <marker date="1631425329803" expanded="true" signature="5679:5768" ph="UPDATE tbl_u... " />
+                <marker date="1631492314945" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631492314945" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631492314945" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631492314945" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631492314945" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631492314945" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
+                <marker date="1631492314945" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
+                <marker date="1631492314945" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
+                <marker date="1631492314945" expanded="true" signature="3860:3950" ph="UPDATE tbl_u... " />
+                <marker date="1631492314945" expanded="true" signature="4630:4645" ph="..." />
+                <marker date="1631492314945" expanded="true" signature="4878:4921" ph="SELECT * FRO... tbl_users" />
+                <marker date="1631492314945" expanded="true" signature="5371:5440" ph="SELECT * FRO... tbl_trend" />
+                <marker date="1631492314945" expanded="true" signature="5571:5633" ph="INSERT into tbl_trend... " />
+                <marker date="1631492314945" expanded="true" signature="5660:5749" ph="UPDATE tbl_u... " />
               </folding>
             </state>
           </provider>
@@ -157,12 +196,12 @@
       <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
               <folding>
-                <marker date="1631488723513" expanded="true" signature="1952:2087" ph="INSERT into tbl_blind_date_request... " />
-                <marker date="1631488723513" expanded="true" signature="2158:2240" ph="UPDATE tbl_u... " />
-                <marker date="1631488723513" expanded="true" signature="2271:2356" ph="UPDATE tbl_u... " />
+                <marker date="1631491556455" expanded="true" signature="1987:2122" ph="INSERT into tbl_blind_date_request... " />
+                <marker date="1631491556455" expanded="true" signature="2193:2275" ph="UPDATE tbl_u... " />
+                <marker date="1631491556455" expanded="true" signature="2306:2391" ph="UPDATE tbl_u... " />
               </folding>
             </state>
           </provider>
@@ -177,7 +216,11 @@
       <find>name=&quot;phone&quot;</find>
       <find>Failed</find>
       <find>$uid</find>
+      <find>$userid</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -191,7 +234,6 @@
         <option value="$PROJECT_DIR$/pages/blinddategallery.php" />
         <option value="$PROJECT_DIR$/pages/trend.php" />
         <option value="$PROJECT_DIR$/pages/guidelines-lol.php" />
-        <option value="$PROJECT_DIR$/inc/sidebar.php" />
         <option value="$PROJECT_DIR$/pages/editvideo.php" />
         <option value="$PROJECT_DIR$/updateprofile.php" />
         <option value="$PROJECT_DIR$/pages/blinddate.php" />
@@ -202,12 +244,13 @@
         <option value="$PROJECT_DIR$/pages/login.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/pages/dgallery.php" />
-        <option value="$PROJECT_DIR$/inc/db.php" />
         <option value="$PROJECT_DIR$/pages/blinddaterequests.php" />
         <option value="$PROJECT_DIR$/pages/adminmatch.php" />
+        <option value="$PROJECT_DIR$/inc/db.php" />
+        <option value="$PROJECT_DIR$/pages/dgallery.php" />
         <option value="$PROJECT_DIR$/pages/blinddateunmatch.php" />
         <option value="$PROJECT_DIR$/pages/blinddateunmatchadmin.php" />
+        <option value="$PROJECT_DIR$/inc/sidebar.php" />
       </list>
     </option>
   </component>
@@ -224,6 +267,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -263,7 +307,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -730,12 +774,12 @@
       <workItem from="1631000384326" duration="22506000" />
       <workItem from="1631126919598" duration="7309000" />
       <workItem from="1631282600535" duration="3304000" />
-      <workItem from="1631302938848" duration="19910000" />
+      <workItem from="1631302938848" duration="27939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85689000" />
+    <option name="totallyTimeSpent" value="93718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,6 +792,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -757,10 +802,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -795,20 +840,20 @@
         <state relative-caret-position="1802">
           <caret line="106" column="12" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
           <folding>
-            <marker date="1631425329803" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
-            <marker date="1631425329803" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
-            <marker date="1631425329803" expanded="true" signature="3879:3969" ph="UPDATE tbl_u... " />
-            <marker date="1631425329803" expanded="true" signature="4649:4664" ph="..." />
-            <marker date="1631425329803" expanded="true" signature="4897:4940" ph="SELECT * FRO... tbl_users" />
-            <marker date="1631425329803" expanded="true" signature="5390:5459" ph="SELECT * FRO... tbl_trend" />
-            <marker date="1631425329803" expanded="true" signature="5590:5652" ph="INSERT into tbl_trend... " />
-            <marker date="1631425329803" expanded="true" signature="5679:5768" ph="UPDATE tbl_u... " />
+            <marker date="1631492314945" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
+            <marker date="1631492314945" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
+            <marker date="1631492314945" expanded="true" signature="3860:3950" ph="UPDATE tbl_u... " />
+            <marker date="1631492314945" expanded="true" signature="4630:4645" ph="..." />
+            <marker date="1631492314945" expanded="true" signature="4878:4921" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631492314945" expanded="true" signature="5371:5440" ph="SELECT * FRO... tbl_trend" />
+            <marker date="1631492314945" expanded="true" signature="5571:5633" ph="INSERT into tbl_trend... " />
+            <marker date="1631492314945" expanded="true" signature="5660:5749" ph="UPDATE tbl_u... " />
           </folding>
         </state>
       </provider>
@@ -863,9 +908,9 @@
         <state relative-caret-position="629">
           <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
-            <marker date="1631488723513" expanded="true" signature="1952:2087" ph="INSERT into tbl_blind_date_request... " />
-            <marker date="1631488723513" expanded="true" signature="2158:2240" ph="UPDATE tbl_u... " />
-            <marker date="1631488723513" expanded="true" signature="2271:2356" ph="UPDATE tbl_u... " />
+            <marker date="1631491556455" expanded="true" signature="1987:2122" ph="INSERT into tbl_blind_date_request... " />
+            <marker date="1631491556455" expanded="true" signature="2193:2275" ph="UPDATE tbl_u... " />
+            <marker date="1631491556455" expanded="true" signature="2306:2391" ph="UPDATE tbl_u... " />
           </folding>
         </state>
       </provider>
@@ -950,20 +995,20 @@
         <state relative-caret-position="2771">
           <caret line="163" column="48" lean-forward="false" selection-start-line="163" selection-start-column="48" selection-end-line="163" selection-end-column="48" />
           <folding>
-            <marker date="1631425329803" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
-            <marker date="1631425329803" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
-            <marker date="1631425329803" expanded="true" signature="3879:3969" ph="UPDATE tbl_u... " />
-            <marker date="1631425329803" expanded="true" signature="4649:4664" ph="..." />
-            <marker date="1631425329803" expanded="true" signature="4897:4940" ph="SELECT * FRO... tbl_users" />
-            <marker date="1631425329803" expanded="true" signature="5390:5459" ph="SELECT * FRO... tbl_trend" />
-            <marker date="1631425329803" expanded="true" signature="5590:5652" ph="INSERT into tbl_trend... " />
-            <marker date="1631425329803" expanded="true" signature="5679:5768" ph="UPDATE tbl_u... " />
+            <marker date="1631492314945" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
+            <marker date="1631492314945" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
+            <marker date="1631492314945" expanded="true" signature="3860:3950" ph="UPDATE tbl_u... " />
+            <marker date="1631492314945" expanded="true" signature="4630:4645" ph="..." />
+            <marker date="1631492314945" expanded="true" signature="4878:4921" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631492314945" expanded="true" signature="5371:5440" ph="SELECT * FRO... tbl_trend" />
+            <marker date="1631492314945" expanded="true" signature="5571:5633" ph="INSERT into tbl_trend... " />
+            <marker date="1631492314945" expanded="true" signature="5660:5749" ph="UPDATE tbl_u... " />
           </folding>
         </state>
       </provider>
@@ -1059,13 +1104,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uploads/profile/Hey.png" />
     <entry file="file://$PROJECT_DIR$/uploads/profile/Descri.png" />
-    <entry file="file://$PROJECT_DIR$/inc/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/editvideo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1254,41 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding>
-            <marker date="1631488723513" expanded="true" signature="1952:2087" ph="INSERT into tbl_blind_date_request... " />
-            <marker date="1631488723513" expanded="true" signature="2158:2240" ph="UPDATE tbl_u... " />
-            <marker date="1631488723513" expanded="true" signature="2271:2356" ph="UPDATE tbl_u... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/dgallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="166" column="22" lean-forward="false" selection-start-line="166" selection-start-column="3" selection-end-line="166" selection-end-column="22" />
-          <folding>
-            <marker date="1631425329803" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631425329803" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
-            <marker date="1631425329803" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
-            <marker date="1631425329803" expanded="true" signature="3879:3969" ph="UPDATE tbl_u... " />
-            <marker date="1631425329803" expanded="true" signature="4649:4664" ph="..." />
-            <marker date="1631425329803" expanded="true" signature="4897:4940" ph="SELECT * FRO... tbl_users" />
-            <marker date="1631425329803" expanded="true" signature="5390:5459" ph="SELECT * FRO... tbl_trend" />
-            <marker date="1631425329803" expanded="true" signature="5590:5652" ph="INSERT into tbl_trend... " />
-            <marker date="1631425329803" expanded="true" signature="5679:5768" ph="UPDATE tbl_u... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/blinddaterequests.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1336,36 +1339,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dgallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <marker date="1631492314945" expanded="true" signature="2043:2181" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2272:2318" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2272:2457" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2272:2505" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2543:2675" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="2777:2885" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631492314945" expanded="true" signature="3487:3540" ph="SELECT credi... tbl_users" />
+            <marker date="1631492314945" expanded="true" signature="3505:3540" ph="UPDATE tbl_u... " />
+            <marker date="1631492314945" expanded="true" signature="3860:3950" ph="UPDATE tbl_u... " />
+            <marker date="1631492314945" expanded="true" signature="4630:4645" ph="..." />
+            <marker date="1631492314945" expanded="true" signature="4878:4921" ph="SELECT * FRO... tbl_users" />
+            <marker date="1631492314945" expanded="true" signature="5371:5440" ph="SELECT * FRO... tbl_trend" />
+            <marker date="1631492314945" expanded="true" signature="5571:5633" ph="INSERT into tbl_trend... " />
+            <marker date="1631492314945" expanded="true" signature="5660:5749" ph="UPDATE tbl_u... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <marker date="1631491556455" expanded="true" signature="1987:2122" ph="INSERT into tbl_blind_date_request... " />
+            <marker date="1631491556455" expanded="true" signature="2193:2275" ph="UPDATE tbl_u... " />
+            <marker date="1631491556455" expanded="true" signature="2306:2391" ph="UPDATE tbl_u... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/blinddateunmatch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="476">
+          <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
           <folding>
-            <marker date="1631489383501" expanded="true" signature="560:664" ph="UPDATE tbl_b... " />
-            <marker date="1631489383501" expanded="true" signature="735:816" ph="UPDATE tbl_u... " />
-            <marker date="1631489383501" expanded="true" signature="847:929" ph="UPDATE tbl_u... " />
-            <marker date="1631489383501" expanded="true" signature="1136:1499" ph="SELECT bdr.*... tbl_blind_date_request" />
+            <marker date="1631494781198" expanded="true" signature="447:530" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631494781198" expanded="true" signature="695:749" ph="SELECT credi... tbl_users" />
+            <marker date="1631494781198" expanded="true" signature="1736:1827" ph="UPDATE tbl_u... " />
+            <marker date="1631494781198" expanded="true" signature="3194:3339" ph="UPDATE tbl_b... " />
+            <marker date="1631494781198" expanded="true" signature="3410:3492" ph="UPDATE tbl_u... " />
+            <marker date="1631494781198" expanded="true" signature="3523:3608" ph="UPDATE tbl_u... " />
+            <marker date="1631494781198" expanded="true" signature="3725:4150" ph="SELECT bdr.*... tbl_blind_date_request" />
+            <marker date="1631494781198" expanded="true" signature="4224:4692" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="4259:4692" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="4286:4692" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="4322:4692" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="4426:4692" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="4470:4692" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="4519:4692" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="4572:4692" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="4644:4692" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="5017:6209" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="5069:5687" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="5118:5633" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="5739:6209" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="6071:6209" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="6638:6726" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="7375:7709" ph="..." />
+            <marker date="1631494781198" expanded="true" signature="8161:8305" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/blinddateunmatchadmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="79" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="79" />
           <folding>
-            <marker date="1631489647076" expanded="true" signature="572:630" ph="SELECT useri... tbl_users" />
-            <marker date="1631489647076" expanded="true" signature="666:722" ph="SELECT useri... tbl_users" />
-            <marker date="1631489647076" expanded="true" signature="1326:1464" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631489647076" expanded="true" signature="1567:1808" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631489647076" expanded="true" signature="1858:1998" ph="SELECT id FR... tbl_blind_date_request" />
-            <marker date="1631489647076" expanded="true" signature="2575:2752" ph="INSERT into tbl_blind_date_request... " />
-            <marker date="1631489647076" expanded="true" signature="2847:2931" ph="UPDATE tbl_u... " />
-            <marker date="1631489647076" expanded="true" signature="2974:3059" ph="UPDATE tbl_u... " />
-            <marker date="1631489647076" expanded="true" signature="3599:3703" ph="UPDATE tbl_b... " />
-            <marker date="1631489647076" expanded="true" signature="3774:3856" ph="UPDATE tbl_u... " />
-            <marker date="1631489647076" expanded="true" signature="3887:3972" ph="UPDATE tbl_u... " />
-            <marker date="1631489647076" expanded="true" signature="4179:4542" ph="SELECT bdr.*... tbl_blind_date_request" />
+            <marker date="1631496508270" expanded="true" signature="572:630" ph="SELECT useri... tbl_users" />
+            <marker date="1631496508270" expanded="true" signature="666:722" ph="SELECT useri... tbl_users" />
+            <marker date="1631496508270" expanded="true" signature="1326:1464" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631496508270" expanded="true" signature="1567:1808" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631496508270" expanded="true" signature="1858:1998" ph="SELECT id FR... tbl_blind_date_request" />
+            <marker date="1631496508270" expanded="true" signature="2575:2752" ph="INSERT into tbl_blind_date_request... " />
+            <marker date="1631496508270" expanded="true" signature="2847:2931" ph="UPDATE tbl_u... " />
+            <marker date="1631496508270" expanded="true" signature="2974:3059" ph="UPDATE tbl_u... " />
+            <marker date="1631496508270" expanded="true" signature="3599:3703" ph="UPDATE tbl_b... " />
+            <marker date="1631496508270" expanded="true" signature="3774:3856" ph="UPDATE tbl_u... " />
+            <marker date="1631496508270" expanded="true" signature="3887:3972" ph="UPDATE tbl_u... " />
+            <marker date="1631496508270" expanded="true" signature="4179:4542" ph="SELECT bdr.*... tbl_blind_date_request" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="120" column="52" lean-forward="false" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+          <folding>
+            <marker date="1631497948894" expanded="true" signature="599:645" ph="SELECT * FRO... tbl_users" />
           </folding>
         </state>
       </provider>

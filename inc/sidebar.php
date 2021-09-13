@@ -70,18 +70,11 @@
             <span class="menu-title">Vote</span>  
           </a>
         </li>-->
-          <?php
-        if(isset($_COOKIE['userid'])){ ?>
-
-        
+      <?php
+    if(isset($_COOKIE['userid'])){ ?>
         <li class="nav-item">
      <a class="nav-link" href="<?php echo SITE_URL; ?>/index.php?p=makepayment">
             <i class="mdi mdi-cash menu-icon"></i>
-            <?php
-   
-              
-
-  ?>
             <span class="menu-title">Fund Wallet </span>
     </a>
         </li>
@@ -98,29 +91,48 @@
             <span class="menu-title">Live Show Results</span>
           </a>
         </li>-->
-        <?php } ?>
+        <?php }
+        if(base64_decode($_COOKIE['role']) !== ROLE_ADMIN) {
+            ?>
 
-        <li class="nav-item">
-          <a class="nav-link" href='<?php echo SITE_URL; ?>/index.php?p=blinddate'>
-            <i class="mdi mdi-chart-pie menu-icon"></i>
-            <span class="menu-title">Blind Date</span>
-          </a>
-        </li>
+            <li class="nav-item">
+                <a class="nav-link" href='<?php echo SITE_URL; ?>/index.php?p=blinddate'>
+                    <i class="mdi mdi-chart-pie menu-icon"></i>
+                    <span class="menu-title">Blind Date</span>
+                </a>
+            </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href='<?php echo SITE_URL; ?>/index.php?p=episodes'>
+                    <i class="mdi mdi-chart-pie menu-icon"></i>
+                    <span class="menu-title">View Episodes</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href='<?php echo SITE_URL; ?>/index.php?p=blinddaterequests'>
+                    <i class="mdi mdi-chart-pie menu-icon"></i>
+                    <span class="menu-title">View Date Requests</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href='<?php echo SITE_URL; ?>/index.php?p=blinddateunmatch'>
+                    <i class="mdi mdi-chart-pie menu-icon"></i>
+                    <span class="menu-title">Unmatch</span>
+                </a>
+            </li>
+            <?php
+        }else {
+       ?>
           <li class="nav-item">
-              <a class="nav-link" href='<?php echo SITE_URL; ?>/index.php?p=episodes'>
+              <a class="nav-link" href='<?php echo SITE_URL; ?>/index.php?p=blinddateunmatchadmin'>
                   <i class="mdi mdi-chart-pie menu-icon"></i>
-                  <span class="menu-title">View Episodes</span>
+                  <span class="menu-title">Match and Unmatch Users</span>
               </a>
           </li>
-
-          <li class="nav-item">
-              <a class="nav-link" href='<?php echo SITE_URL; ?>/index.php?p=blinddaterequests'>
-                  <i class="mdi mdi-chart-pie menu-icon"></i>
-                  <span class="menu-title">View Date Requests</span>
-              </a>
-          </li>
-
+          <?php
+        }
+?>
           <!--
 
             <li class="nav-item">
