@@ -155,7 +155,7 @@ $total_users = mysqli_num_rows($sql4);
                                                                 <input type="hidden" name="to_user_id"
                                                                        value="<?=$row['touserid'] ?>"/>
                                                                 <button type="submit" name="unmatch" value="1"
-                                                                        class="btn btn-danger"
+                                                                        class="btn btn-danger" onclick="return confirm('Are you sure you want to unmatch? Click Ok to continue...')"
                                                                         style="float: left; position: relative; left: 10px;">Unmatch<i class="fa fa-arrow-right"></i>
                                                                 </button>
                                                             </form>
