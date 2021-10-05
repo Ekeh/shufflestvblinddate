@@ -14,7 +14,16 @@ if(!isset($_COOKIE['userid'])){
 
 global $user_id;
 $user_id = $_COOKIE['userid'];
+$from_user_id = '';
+$to_user_id = '';
+$request_id = '';
 if(isset($_POST['unmatch']) || isset($_GET['chargeaccepted'])) {
+ if(isset($_POST['unmatch'])) {
+     $from_user_id = mysqli_real_escape_string($db, $_POST['from_user_id']);
+     $to_user_id = mysqli_real_escape_string($db, $_POST['to_user_id']);
+     $request_id = mysqli_real_escape_string($db, $_GET['request_id']);
+ }
+
 $check_unmatch = mysqli_query($db,"SELECT id FROM tbl_blind_date_request WHERE unmatched_request_user_id  = '$user_id'");
 if(mysqli_num_rows($check_unmatch) > 0) {
     if($_GET['chargeaccepted'] === '1') {
@@ -30,6 +39,7 @@ if(mysqli_num_rows($check_unmatch) > 0) {
         }else {
 
             $request_id = mysqli_real_escape_string($db, $_GET['request_id']);
+            $from_user_id = mysqli_real_escape_string($db, $_GET['from_user_id']);
             $to_user_id = mysqli_real_escape_string($db, $_GET['to_user_id']);
             if (empty($request_id) || empty($to_user_id)) {
                 ?>
@@ -41,7 +51,7 @@ if(mysqli_num_rows($check_unmatch) > 0) {
                 </script>
                 <?php
             } else {
-                if (unmatch($db, $user_id, $request_id, $to_user_id)) {
+                if (unmatch($db, $user_id, $from_user_id, $request_id, $to_user_id)) {
                     $debit = mysqli_query($db, "UPDATE  tbl_users set credit=credit - '" . AMOUNT_PER_UNMATCH . "'  WHERE userid='$user_id'");
                     ?>
                     <script type="text/javascript">
@@ -61,15 +71,16 @@ if(mysqli_num_rows($check_unmatch) > 0) {
         ?>
         <script>
             if (confirm("You will be charged 'NGN<?=AMOUNT_PER_UNMATCH?>' to be unmatched. Press Ok to continue.")) {
-                window.location.href = 'index.php?p=blinddateunmatch&chargeaccepted=1&request_id=<?=$_POST['request_id']?>&to_user_id=<?=$_POST['to_user_id']?>';
+                window.location.href = 'index.php?p=blinddateunmatch&chargeaccepted=1&request_id=<?=$_POST['request_id']?>&from_user_id=<?=$_POST['from_user_id']?>&to_user_id=<?=$_POST['to_user_id']?>';
             }
         </script>
         <?php
     }
 }else {
     $request_id = mysqli_real_escape_string($db,$_POST['request_id']);
+    $from_user_id = mysqli_real_escape_string($db, $_POST['from_user_id']);
     $to_user_id = mysqli_real_escape_string($db,$_POST['to_user_id']);
-    if(unmatch($db, $user_id, $request_id, $to_user_id)) {
+    if(unmatch($db, $user_id, $from_user_id, $request_id, $to_user_id)) {
         $msg= "Users unmatched successfully.";
     }else {
         $msg= "Error occurred while sending your request.";
@@ -78,16 +89,12 @@ if(mysqli_num_rows($check_unmatch) > 0) {
 }
 }
 
-function unmatch($db, $user_id, $request_id, $to_user_id) {
-    $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status = '" . BLIND_DATE_STATUS_UNMATCHED ."', unmatched_request_user_id  = '$user_id' WHERE id = '$request_id'");
-    if(mysqli_affected_rows($db) > 0) {
-        mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$user_id'");
+function unmatch($db, $user_id, $from_user_id, $request_id, $to_user_id) {
+    $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status = '" . BLIND_DATE_STATUS_UNMATCHED ."', unmatched_request_user_id  = '$user_id', updated_at = '" . date('Y-m-d H:i:s', time()) . "' WHERE id = '$request_id'");
+        mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$from_user_id'");
         mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$to_user_id'");
         unset($_POST);
         return true;
-    }else {
-        return false;
-    }
 }
 
 $sql4 = mysqli_query($db,"SELECT bdr.*, fromu.userid AS fromuserid, fromu.fname AS fromfname, fromu.lname AS fromlname, fromu.username AS fromusername,
@@ -118,7 +125,8 @@ $total_users = mysqli_num_rows($sql4);
                                     <div align='center'>
                                         <h4>Match Users</h4>
                                         <p><?php if($msg!=''){ ?> <div class="msg <?=empty($is_error)?'text-success':'text-danger'?>"><?php echo $msg; ?></div>    <?php } ?></p>
-                                        <table class="table table-bordered">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
                                             <thead>
                                             <tr>
                                                 <th>S/N</th>
@@ -152,6 +160,8 @@ $total_users = mysqli_num_rows($sql4);
                                                                   method="post">
                                                                 <input type="hidden" name="request_id"
                                                                        value="<?=$row['id'] ?>"/>
+                                                                <input type="hidden" name="from_user_id"
+                                                                       value="<?=$row['fromuserid'] ?>"/>
                                                                 <input type="hidden" name="to_user_id"
                                                                        value="<?=$row['touserid'] ?>"/>
                                                                 <button type="submit" name="unmatch" value="1"
@@ -173,7 +183,7 @@ $total_users = mysqli_num_rows($sql4);
                                             ?>
                                             </tbody>
                                         </table>
-
+                                    </div>
 
                                     </div>
 

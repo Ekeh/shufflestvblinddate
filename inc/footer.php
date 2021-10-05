@@ -7,7 +7,7 @@
                 <p class="text-center text-sm-left d-block d-sm-inline-block mb-0">Copyright © <?php echo date('Y'); ?> <a href="index.php" target="_blank">ShufflesTV</a>. All rights reserved. <!--|| Designed by <a href='https://positiveedge.com.ng' target='_blank'>PositiveEdge</a></a>--></p>
             <br clear="all">
              <br>
-             <p><a href="index.php?p=tandc" style="color: #ffffff;" target='_blank'>  Terms & Conditions</a> | <a href="index.php?p=privacy" style="color: #ffffff;" target='_blank'>  Privacy Policy</a> | <a href="index.php?p=voting" style="color: #ffffff;" target='_blank'>  Voting Policy</a> | <a href="index.php?p=privacy" style="color: #ffffff;" target='_blank'>  Privacy Policy</a> | <a href="index.php?p=roomies" style="color: #ffffff;" target='_blank'>  Roomies Season 1 </a> </div>
+             <p><a href="index.php?p=tandc" style="color: #ffffff;" target='_blank'>  Terms & Conditions</a> | <a href="index.php?p=privacy" style="color: #ffffff;" target='_blank'>  Privacy Policy</a> </div>
             </p></div>
           </div>
         </footer>

@@ -38,7 +38,9 @@ $d='';
 
 <div class="row">
             <div class="col-lg-12">
-     <div align="center"> <br clear="all">
+     <div align="center">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/YFY2A9mKucs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <br><br><br clear="all">
    <?php if(!isset($_COOKIE['userid']))
      {
 ?><a href="<?php echo SITE_URL; ?>/register.php" class="btn btn-primary" style="background-color: red">Register / Login</a>
@@ -290,13 +292,13 @@ while($rows=mysqli_fetch_array($sql))
  $name=$rows['username'];
   $uid=$rows['userid'];
   $make_trend=$rows['make_trend'];
-$nam=substr($name,0,15);
+$nam=substr($name,0,15); 
 
 
 ?>
 
 <a href="index.php?p=dgallery&u=<?php echo $uid; ?>">
-  <img src="uploads/profile/<?php echo $photo; ?>" alt="" style='width: 200px; height:250px; padding: 10px; object-fit:cover; border-radius:5px'></a>
+  <img src="uploads/profile/<?php echo $photo; ?>" alt="" style='width: 200px; height:200px; padding: 10px; object-fit:cover; border-radius:50%'></a>
   <!--<h5 class="this-title" align="" style="padding: 10px"><?php 
 
   if($name==''){echo "...";}else{echo $nam; if (strlen($name) > 15){echo "...";}}?></h5>-->

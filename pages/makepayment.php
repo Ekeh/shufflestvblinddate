@@ -76,8 +76,8 @@ if(isset($_POST['subscribe'])){
                     <div class="wrap-input100 validate-input m-t-25 m-b-35" data-validate = "Choose Amount">
                         <select name="subscription" class="" style="padding: 10px; width: 100%" >
 <option value="100">N100</option>   
-<option value="500" >N500</option>  
-<option value="1000" selected>N1,000</option>   
+<option value="500">N500</option>  
+<option value="1000">N1,000</option>   
 <option value="5000">N5,000</option>   
 <option value="10000">N10,000</option>   
 <option value="20000">N20,000</option>   
@@ -99,23 +99,6 @@ if(isset($_POST['subscribe'])){
             <?php } ?>
             <div align="center" style="background-color: #ffffff;margin-top: 5px; padding: 5px"><img src="<?php SITE_URL; ?>/images/paystack.png" height="70px" width="auto"></div>
 
-
-
-
-                   
- <br>OR<br>
- 
-
-                                                      Make an online transfer to :
-<br>
-Access (Diamond) Bank <br>
-1219258684 <br>
-Campout Nigeria Limited <br>
-After payment, send an SMS with payment details to 08035729461<br>
-
-
-
-  
         </div>         </div>
 
                 </div>

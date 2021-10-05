@@ -1,5 +1,7 @@
 <?php
-
+/*ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);*/
 if(!isset($_COOKIE['userid'])){
 ?>
 <script type="text/javascript">
@@ -11,8 +13,9 @@ alert("You Must Login to view this page");
 <?php
   exit;
 }
-$userid=$_COOKIE['userid'];
-  ?><style>
+$userid = $_COOKIE['userid'];
+  ?>
+  <style>
 li {
 
  display: inline;
@@ -34,6 +37,17 @@ li {
 </style>
 <?php
 $d='';
+function insert_date_request($db, $user_id, $to_user_id)
+{
+    $q = mysqli_query($db,"INSERT into tbl_blind_date_request SET user_id='$user_id', to_user_id='$to_user_id', created_at = '" . date('Y-m-d H:i:s', time()) . "'");
+    if(mysqli_affected_rows($db) > 0) {
+        mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$user_id'");
+        mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$to_user_id'");
+        return true;
+    }
+    return false;
+}
+
 ?>
 <div class="main-panel" >
         <div class="">

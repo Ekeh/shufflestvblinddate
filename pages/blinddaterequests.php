@@ -69,14 +69,12 @@ $userid=$_COOKIE['userid'];
 if(isset($_POST['accept_request'])) {
     $request_id = $_POST['request_id'];
     $from_user_id = $_POST['from_user_id'];
-     $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status='" . BLIND_DATE_STATUS_ACCEPTED . "' WHERE id='$request_id'");
-    if(mysqli_affected_rows($db) > 0) {
+     $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status='" . BLIND_DATE_STATUS_ACCEPTED . "', updated_at = '" . date('Y-m-d H:i:s', time()) . "' WHERE id='$request_id'");
         mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_ON_DATE . "' WHERE userid='$userid'");
         mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_ON_DATE . "' WHERE userid='$from_user_id'");
         //TODO: Expire other requests from any of these users
-        $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status='" . BLIND_DATE_STATUS_EXPIRED . "' WHERE id !='$request_id' AND user_id = '$userid'");
-        $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status='" . BLIND_DATE_STATUS_EXPIRED . "' WHERE id !='$request_id' AND to_user_id = '$userid'");
-    }
+        $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status='" . BLIND_DATE_STATUS_EXPIRED . "', updated_at = '" . date('Y-m-d H:i:s', time()) . "' WHERE id !='$request_id' AND user_id = '$userid'");
+        $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status='" . BLIND_DATE_STATUS_EXPIRED . "', updated_at = '" . date('Y-m-d H:i:s', time()) . "' WHERE id !='$request_id' AND to_user_id = '$userid'");
 
     ?>
     <script>
@@ -88,11 +86,9 @@ if(isset($_POST['accept_request'])) {
     if(isset($_POST['reject_request'])) {
     $request_id = $_POST['request_id'];
     $from_user_id = $_POST['from_user_id'];
-    $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status='" . BLIND_DATE_STATUS_REJECTED . "' WHERE id='$request_id'");
-    if(mysqli_affected_rows($db) > 0) {
+    $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status='" . BLIND_DATE_STATUS_REJECTED . "', updated_at = '" . date('Y-m-d H:i:s', time()) . "' WHERE id='$request_id'");
         mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$userid'");
         mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$from_user_id'");
-    }
     ?>
     <script>
         alert('Request rejected successfully.');

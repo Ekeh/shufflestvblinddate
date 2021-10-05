@@ -10,7 +10,7 @@ if(isset($_GET['p'])){
 $page=$_GET['p'];
 }
 
-if($page=='logout'){
+if($page =='logout'){
 setcookie('useremail',$_COOKIE['useremail'], time() - (3600*24*365)); // 3600 = 1 hour
 setcookie('userid',$_COOKIE['userid'], time() - (3600*24*365)); // 3600 = 1 hour
 setcookie('fname',$_COOKIE['fname'], time() - (3600*24*365)); // 3600 = 1 hour
@@ -126,7 +126,7 @@ include('inc/topnav.php');
 
                 if($page==''){
                 ////include("pages/livestream.php"); 
-               include("pages/dashboard.php");
+                include("pages/dashboard.php");
                 }elseif(!file_exists("pages/".$page.".php")){
                 ///include("pages/livestream.php");
                include("pages/dashboard.php");

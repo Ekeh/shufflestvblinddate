@@ -1,3 +1,23 @@
+<style>
+    .table-wrapper-trend-profile {
+        overflow: scroll;
+    }
+    .table-wrapper-trend-profile::-webkit-scrollbar {
+        background: transparent;  /* Optional: just make scrollbar invisible */
+        width: 5px;
+    }
+    .table-wrapper-trend-profile::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+    }
+    /* Optional: show position indicator in red */
+    .table-wrapper-trend-profile::-webkit-scrollbar-thumb {
+        background: #27293D
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); ;
+    }
+
+</style>
 <?php
 
 if(!isset($_COOKIE['userid'])){
@@ -47,7 +67,7 @@ $d='';
            <a href="<?php /*echo SITE_URL; */?>/index.php?p=trend" class="btn btn-primary" style="background-color: red">Trend Profile</a>-->
 
 </div>
- <h3>Gallery</h3>
+ <h3>Trending Profile</h3>
 
 
 
@@ -56,18 +76,57 @@ $d='';
 
               <div class=" " >
 
-                <div class="card-body" >
-
-                       <div id="video-gallery" align="left" >
+<div class="card-body" >
+<div id="video-gallery" align="left" >
                    <?php
 if(isset($_COOKIE['userid']))
 {
-
 $userid=$_COOKIE['userid'];
+$sqlTrending = mysqli_query($db,"SELECT userid, photo, username FROM tbl_users WHERE profile_type='" . PROFILE_TRENDING . "' order by rand() LIMIT 20");
+$numTrend = mysqli_num_rows($sqlTrending);
+if($numTrend !== '0') {
+        ?>
 
+        <div class="table-responsive table-wrapper-trend-profile">
+            <table class="table">
+                <tr>
+                    <?php
+    while($rows = mysqli_fetch_array($sqlTrending)) {
+        $photo = $rows['photo'];
+        if (empty($photo)) {
+            continue;
+        }
+        $trend_user_id = $rows['userid'];
+        $trend_photo = $rows['photo'];
+        $trend_username = $rows['username'];
+                    ?>
+                    <td align="left" style="width:200px">
+                        <a href="index.php?p=dgallery&amp;u=<?=$trend_user_id?>">
+                            <img src="uploads/profile/<?=$trend_photo?>" alt="<?=$trend_username?>"
+                                 style="width: 200px; height:200px; padding: 10px; object-fit:cover; border-radius:50%" />
+                        </a>
+                    </td>
+
+        <?php
+    }
+        ?>
+
+                </tr>
+            </table>
+        </div>
+        <?php
+}
+    ?>
+    <br />
+    <br />
+
+    <h3>Gallery</h3>
+    <hr />
+    <br />
+<?php
 
 //// get profile of those that are trending
-$sql = mysqli_query($db,"SELECT * FROM tbl_users WHERE profile_type='" . PROFILE_FREE . "'  order by rand()");
+$sql = mysqli_query($db,"SELECT * FROM tbl_users WHERE profile_type='" . PROFILE_FREE . "' AND userid != '$userid'  order by rand()");
 $num=mysqli_num_rows($sql);
 
 if($num=='0'){
@@ -104,7 +163,8 @@ while($rows=mysqli_fetch_array($sql))
 }
 
 }
-} ?>
+}
+?>
 
 
                 </div>

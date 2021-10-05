@@ -43,6 +43,7 @@ define("VIDEO_PATH","https://shufflestv.com/uploads/videos");
 define("UPLOAD_PROFILE","https://shufflestv.com/dashboard/campout9ja_api/profile");
 define("PROFILE_FREE","1");
 define("PROFILE_ON_DATE","2");
+define("PROFILE_TRENDING","3");
 
 define("BLIND_DATE_STATUS_PENDING","0");
 define("BLIND_DATE_STATUS_ACCEPTED","1");
@@ -65,17 +66,6 @@ define("SMS_TOKEN","ukrDmtb09tYy7zBqCHOyJkI1piZoRzhTxgkFe00v16KfpRRuf7gBVRWeX90f
 ///// this is the website title
 define("SITE_TITLE","ShufflesTV");
 define("MAIN_SITE","https://shufflestv.com");
-
-function insert_date_request($db, $user_id, $to_user_id)
-{
-    $q = mysqli_query($db,"INSERT into tbl_blind_date_request SET user_id='$user_id', to_user_id='$to_user_id', created_at = '" . date('Y-m-d H:i:s', time()) . "'");
-    if(mysqli_affected_rows($db) > 0) {
-        mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$user_id'");
-        mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$to_user_id'");
-        return true;
-    }
-    return false;
-}
 
 /*
 function setmycookie($cookiename,$cookievalue,$duration){

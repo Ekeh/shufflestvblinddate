@@ -65,16 +65,12 @@ if(isset($_POST['unmatch'])) {
     $request_id = mysqli_real_escape_string($db,$_POST['request_id']);
     $user_id = mysqli_real_escape_string($db,$_POST['user_id']);
     $to_user_id = mysqli_real_escape_string($db,$_POST['to_user_id']);
-    $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status = '" . BLIND_DATE_STATUS_UNMATCHED ."' WHERE id = '$request_id'");
-    if(mysqli_affected_rows($db) > 0) {
+    $q = mysqli_query($db,"UPDATE tbl_blind_date_request SET status = '" . BLIND_DATE_STATUS_UNMATCHED ."', updated_at = '" . date('Y-m-d H:i:s', time()) . "' WHERE id = '$request_id'");
         mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$user_id'");
         mysqli_query($db, "UPDATE tbl_users SET profile_type = '" . PROFILE_FREE . "' WHERE userid='$to_user_id'");
         $msg= "Users unmatched successfully.";
         unset($_POST);
-    }else {
-        $msg= "Error occurred while sending your request.";
-        $is_error = true;
-    }
+
 }
 
 $sql4 = mysqli_query($db,"SELECT bdr.*, fromu.userid AS fromuserid, fromu.fname AS fromfname, fromu.lname AS fromlname, fromu.username AS fromusername,
@@ -124,6 +120,7 @@ $total_users = mysqli_num_rows($sql4);
                                     </div>
                                 </section>
                              </form>
+                            <div class="table-responsive">
                             <table class="table table-bordered">
                                 <thead>
                                 <tr>
@@ -181,7 +178,7 @@ $total_users = mysqli_num_rows($sql4);
                                 ?>
                                 </tbody>
                             </table>
-
+                            </div>
 
 
                         </div>
